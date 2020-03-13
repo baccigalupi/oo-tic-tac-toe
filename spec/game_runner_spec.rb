@@ -6,12 +6,13 @@ RSpec.describe GameRunner do
     mock_stdout = StringIO.new("")
 
     empty_board = <<~GAME
+       1  2  3
        __ __ __
-      |  |  |  |
+    A |  |  |  |
       |__|__|__|
-      |  |  |  |
+    B |  |  |  |
       |__|__|__|
-      |  |  |  |
+    C |  |  |  |
       |__|__|__|
 
     GAME
