@@ -4,7 +4,7 @@ This is an exercise in TDD-ing and OO Design. It's broken into 7 features:
 
 ## Features
 
-1. When you run ruby `tic_tac_toe/game_runner.rb`, an empty grid is rendered on the screen.
+1. When you run `ruby tic_tac_toe/game_runner.rb`, an empty grid is rendered on the screen.
 ```
    __ __ __
   |  |  |  |
@@ -80,6 +80,9 @@ It's pretty easy to throw a script into the middle of an object. That isn't this
 * Pay attention to the colors and shapes in your IDE. Methods with similar colors and shapes typically belong together, and ones that are very different can be a smell.
 
 ### Process
+#### Fork the project
+This is open source; keep it that way so you can get easy feedback!
+
 #### Choose a mentor
 Find someone who can very quickly do this exercise and following the design guides to get to an OO app.
 
