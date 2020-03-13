@@ -1,11 +1,14 @@
-class GameRunner
-  attr_reader :stdin, :stdout
+require_relative "./view"
 
-  def initialize(stdin, stdout)
-    @stdin = stdin
-    @stdout = stdout
+class GameRunner
+  attr_reader :input, :output
+
+  def initialize(input, output)
+    @input = input
+    @output = output
   end
 
   def run
+    View.new(output).print
   end
 end
